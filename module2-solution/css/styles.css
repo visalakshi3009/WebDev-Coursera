@@ -1,0 +1,54 @@
+html{
+    font-size: 40px;
+}
+.box{
+    box-sizing: border-box;
+    background-color: cyan;
+    border: 3px solid black;
+    margin: 10px;
+}
+p{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.57rem;
+    padding: 10px;
+}
+h1, h2{
+    font-family: "Lugrasimo", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+}
+h2{
+    background-color: pink;
+    border: solid black;
+    border-width: 0 0 3px 3px;
+    font-size: 0.71rem;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    float: right;
+}
+@media (min-width: 992px){
+    .box{
+        float: left;
+        width: 31%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .box{
+        float: left;
+        width: 47%;
+    }
+}
+@media (max-width: 767px){
+    .box{
+        clear: left;
+        width: 100%;
+    }
+}

@@ -34,6 +34,9 @@ h2{
     padding: 10px;
     float: right;
 }
+#last-section{
+    width: 97%;
+}
 @media (min-width: 992px){
     .box{
         float: left;

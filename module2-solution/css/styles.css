@@ -48,6 +48,7 @@ h2{
 }
 @media (max-width: 767px){
     .box{
+        clear: both;
         width: 100%;
     }
 }
